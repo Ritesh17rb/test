@@ -13,14 +13,15 @@ export default function Carousel() {
             <img style={{
               "filter": "brightness(80%)",
               "maxHeight": "500px", "objectFit": "cover"
-            }} src="https://source.unsplash.com/random/300×300?vegetables" className="d-block w-100" alt="..." />
+            }} src="/images/pic3.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Try Premium range of Organic Products</h5>
 
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://source.unsplash.com/random/300×300?fruits" style={{
+
+            <img src="/images/pic1.jpg" style={{
               "filter": "brightness(80%)",
               "maxHeight": "500px", "objectFit": "cover"
             }} className="d-block w-100" alt="..." />
@@ -32,7 +33,7 @@ export default function Carousel() {
             <img style={{
               "filter": "brightness(80%)",
               "maxHeight": "500px", "objectFit": "cover"
-            }} src="https://source.unsplash.com/random/300×300?rice" className="d-block w-100" alt="..." />
+            }} src="/images/pic2.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Connect with your Trustable Farmer</h5>
             </div>
